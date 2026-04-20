@@ -1,3 +1,5 @@
-name = "sudoku"
+name = "sudoku-rust"
 language = "Rust"
 description = "Sudoku solver workload (stub — work-in-progress, not yet wired into Etna's solve/sample capabilities)."
+
+mutations = []
