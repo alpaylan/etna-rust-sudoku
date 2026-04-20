@@ -1,0 +1,20 @@
+{
+  "setup_steps": [
+    {
+      "Command": {
+        "command": "cargo",
+        "args": ["--version"]
+      }
+    }
+  ],
+  "build_steps": [
+    {
+      "Command": {
+        "run_at": "${workload_path}",
+        "command": "cargo",
+        "args": ["build", "--release"]
+      }
+    }
+  ],
+  "capabilities": {}
+}
